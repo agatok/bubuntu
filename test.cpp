@@ -7,6 +7,7 @@ int main(int argc, char * argv)
 	{
 		std::cout << n << " ";
 		n %= 0x5a5a5a5a;
+		// what is that?
 		std::cout << n << " ";
 	}
 }
